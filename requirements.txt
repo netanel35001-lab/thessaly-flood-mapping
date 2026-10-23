@@ -1,0 +1,11 @@
+pystac-client>=0.8
+planetary-computer>=1.0
+odc-stac>=0.3
+xarray>=2023.1
+numpy>=1.26
+matplotlib>=3.8
+scipy>=1.11
+rioxarray>=0.15
+geopandas>=0.14
+osmnx>=2.0
+pyarrow>=14.0
