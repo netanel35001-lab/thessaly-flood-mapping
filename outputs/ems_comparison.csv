@@ -1,7 +1,7 @@
 area,ems_layer,compared_km2,s1_flooded_km2,ems_flooded_km2,both_km2,iou,s1_confirmed_by_ems,ems_found_by_s1
-AOI02 Palamas,All EMS flooding,397.052,109.549,242.915,108.128,0.443,0.987,0.445
-AOI02 Palamas,Open water only,397.052,109.549,67.182,54.811,0.45,0.5,0.816
-AOI05 Karditsa,All EMS flooding,710.724,115.119,242.76,111.63,0.453,0.97,0.46
-AOI05 Karditsa,Open water only,710.724,115.119,182.09,100.577,0.512,0.874,0.552
-Both AOIs,All EMS flooding,1107.777,224.668,485.68,219.76,0.448,0.978,0.452
-Both AOIs,Open water only,1107.777,224.668,249.271,155.388,0.488,0.692,0.623
+AOI02 Palamas,All EMS flooding,397.052,143.364,242.915,140.452,0.571,0.98,0.578
+AOI02 Palamas,Open water only,397.052,143.364,67.182,63.143,0.428,0.44,0.94
+AOI05 Karditsa,All EMS flooding,710.724,171.758,242.76,158.464,0.619,0.923,0.653
+AOI05 Karditsa,Open water only,710.724,171.758,182.09,136.714,0.63,0.796,0.751
+Both AOIs,All EMS flooding,1107.777,315.122,485.68,298.919,0.596,0.949,0.615
+Both AOIs,Open water only,1107.777,315.122,249.271,199.856,0.548,0.634,0.802

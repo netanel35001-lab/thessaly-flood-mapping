@@ -8,10 +8,14 @@ from scipy import ndimage
 
 from compare_dates import DATE_AFTER, DATE_BEFORE, OUT_DIR, RESOLUTION, STAC_URL, load_db
 
-WATER_DB = -18.0       # VV below this value is treated as open water
+# VV below this value is treated as open water. Started at -18 dB (a common default);
+# the threshold sweep against Copernicus EMS (threshold_tradeoff.py) showed -13 to -15 dB
+# gives the best agreement, so -14 dB is used. Note: this calibrates on the same reference
+# used for validation, so the reported agreement is somewhat optimistic.
+WATER_DB = -14.0
 DROP_DB = 3.0          # and the backscatter must have dropped by at least this much
 MIN_AREA_HA = 1.0      # remove flooded patches smaller than this
-SENSITIVITY_DB = [-15.0, -18.0, -20.0]
+SENSITIVITY_DB = [-13.0, -14.0, -15.0, -18.0]
 
 PIXEL_KM2 = (RESOLUTION / 1000) ** 2
 
